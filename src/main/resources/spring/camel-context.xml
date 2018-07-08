@@ -13,7 +13,7 @@
             <transform id="route-transform">
                 <method ref="myTransformer"/>
             </transform>
-            <log id="route-log" message=">>> ${body}"/>
+            <log id="route-log" message=">>> Hola mundo: ${body}"/>
         </route>
     </camelContext>
 
